@@ -1,1 +1,5 @@
-# chictech-2024
+# UIUC ChicTech Beginner Workshop 2024! 
+
+Welcome! 
+
+TODO: add more instructions here
