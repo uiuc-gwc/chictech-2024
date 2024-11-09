@@ -7,7 +7,7 @@ class RockPaperScissors:
     def wonGame(self, guess, result):
         # TODO: Write an if statement to determine if the player won the game
         # Hint: You will need to use "and" and "or" to write this one. 
-        pass # delete this line of code one completed. 
+        pass # delete this line of code once completing the TODO
 
     def playGame(self):
         # Input the players guess
@@ -27,10 +27,10 @@ class RockPaperScissors:
          # Check if the guess was correct
         if self.wonGame(guess, result): 
             # TODO: Print a congratulations message if the player won
-            print("")
+            pass # delete this line of code once completing the TODO
         else:
             # TODO: Print a message telling the player they lost and the result
-            print("")
+            pass # delete this line of code once completing the TODO
 
 if __name__ == "__main__":
     game = RockPaperScissors()
