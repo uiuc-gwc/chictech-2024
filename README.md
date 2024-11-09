@@ -55,4 +55,8 @@ You can learn from w3schools. Alternately, we have our own [Python Workshop](htt
 We have more templates for games! You can find them at the [Game Collection](https://github.com/uiuc-gwc/game-collection).  You can also create a Codespace for this repository. (This repository gets updated quite a lot, so it's a good idea to run `git pull` in the terminal whenever you log in to get the latest changes.)
 
 
+# Have more questions?
+
+Submit an issue [here](https://github.com/uiuc-gwc/chictech-2024/issues) - you'll need to click "New Issue" at the top right and follow the instructions. 
+
 (most of this documentation written with my helpful buddy [Github Copilot](copilot.github.com))
