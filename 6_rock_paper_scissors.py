@@ -6,6 +6,7 @@ class RockPaperScissors:
     # Returns False if the computer's guess is "better" than the player's guess.
     def wonGame(self, guess, result):
         # TODO: Write an if statement to determine if the player won the game
+        # Hint: You will need to use "and" and "or" to write this one. 
         pass # delete this line of code one completed. 
 
     def playGame(self):
