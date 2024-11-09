@@ -9,9 +9,9 @@ class CoinFlip:
 
     def playGame(self):
         # Input the players guess
-        guess = input("What is your guess (Heads or Tails)? ").lower()
+        guess = input("What is your guess (Heads or Tails)? ").upper()
 
-        # TODO: Write an if statement to validate that the guess is either "heads" or "tails"
+        # TODO: Write an if statement to validate that the guess is either "HEADS" or "TAILS"
         if False: # Change this line of code
             print("That wasn't a valid guess! Please enter 'Heads' or 'Tails'.")
             return
