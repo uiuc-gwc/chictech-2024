@@ -20,8 +20,8 @@ body:
   - type: textarea
     attributes:
       label: Your code
-      description: Please paste your code here. Please type "```" and "```" before and after your code so the code is formatted properly. 
-      placeholder: For better legibility, please use code blocks when pasting. 
+      description: Please paste your code here. 
+      placeholder: For better legibility, please type "```" and "```" before and after your code so the code is formatted properly. 
     validations:
       required: true
   - type: textarea
