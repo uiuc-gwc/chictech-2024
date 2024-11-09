@@ -1,64 +1,41 @@
----
-name: Question for ChicTech-2024 workshop
-about: 'Use this template if you have a question from the ChicTech-2024 exercises. '
-title: ''
-labels: help wanted
-assignees: ''
+name: Question for the Chictech-2024 workshop
+description: Use this template if you have a question from the ChicTech-2024 exercises.
+title: "DESCRIPTIVE SUMMARY OF WHAT'S GOING ON"
+labels: ["help wanted"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Exercise name
+      description: What exercise are you on?
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description of the problem
+      description: What's going on? (Please be specific - "it's not working" is not specific. )
+      placeholder: Enter a description of your problem here.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Your code
+      description: Please paste your code here. Please type "```" and "```" before and after your code so the code is formatted properly. 
+      placeholder: For better legibility, please use code blocks when pasting. 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Errors
+      description: Please paste the error you got. 
+      placeholder: For better legibility, please use code blocks when pasting. 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: More details (optional)
+      description: Add any additional details here. 
+      placeholder: For better legibility, please use code blocks when pasting. 
     validations:
       required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
----
+      
